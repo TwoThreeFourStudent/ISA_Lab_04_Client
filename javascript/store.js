@@ -14,7 +14,7 @@ function addDefinition() {
 
   const xhr = new XMLHttpRequest();
 
-  xhr.open('POST', 'http://localhost:3500/api/definitions', true);
+  xhr.open('POST', 'https://comp4537-lab4-server-jalx.onrender.com', true);
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
   xhr.onload = function () {

@@ -15,7 +15,7 @@ function searchDefinition() {
 
   const xhr = new XMLHttpRequest();
 
-  xhr.open('GET', `http://localhost:3500/api/definitions?word=${word}`, true);
+  xhr.open('GET', `https://comp4537-lab4-server-jalx.onrender.com/api/definitions?word=${word}`, true);
 
   xhr.onload = function() {
     if (xhr.readyState === 4) {
